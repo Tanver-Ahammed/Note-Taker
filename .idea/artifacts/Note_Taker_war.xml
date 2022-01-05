@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Note-Taker:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Note-Taker</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Note-Taker-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Note-Taker:war exploded" />
+    </root>
+  </artifact>
+</component>
