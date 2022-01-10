@@ -32,7 +32,7 @@
 
             <%
                 Session s = FactoryProvider.getSessionFactory().openSession();
-                Query query = s.createQuery("from Note");
+                Query query = s.createQuery("from Note n order by n.addedDate desc");
                 List<Note> noteList = query.list();
                 for (Note note : noteList) {
             %>
